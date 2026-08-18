@@ -31,7 +31,7 @@ A estrutura poderá evoluir conforme novos conceitos, projetos e materiais forem
 
 O repositório deve ser utilizado como uma **base de estudos contínua**.
 
-A recomendação é seguir a trilha apresentada no índice, acompanhando as seções na ordem sugerida. As notas também podem ser acessadas individualmente para revisar um conceito específico.
+A recomendação é seguir a trilha apresentada no índice (começar por [[maui|aqui]]), acompanhando as seções na ordem sugerida. As notas também podem ser acessadas individualmente para revisar um conceito específico.
 
 > 💡 **Ideia principal:** este repositório não serve apenas para registrar o que foi estudado, mas para construir uma base de conhecimento que possa ser consultada e reutilizada em projetos futuros.
 
