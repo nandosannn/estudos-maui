@@ -7,6 +7,6 @@
 
 
 ## 📝 Notas rápidas
-**Assunto atual**:  #estudos-maui/secao-13
+**Assunto atual**:  #estudos-maui/secao-03
 
 
