@@ -17,7 +17,7 @@ tipo: índice
 > [!note]- Seção 3 - Primeiros Passos
 > *Visão geral* — Conceitos iniciais.
 > 
-> 👉 [link]
+> 👉 [[seção 03 - aulas|Ir para aulas]]
 
 
 ---

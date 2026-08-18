@@ -2,7 +2,8 @@
 
 ## 📊 Conteúdo
 
-#### [[classes_relacionamentos_tipos.canvas|Classes e Relacionamentos]]
+#### [[02 - Fluxo de Execução do Maui|Fluxo de Execução]]
+#### [[03 - Configurações|Configurações]]
 
 
 ## 📝 Notas rápidas

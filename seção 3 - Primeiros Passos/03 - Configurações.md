@@ -47,7 +47,7 @@ As opções preenchidas na interface gráfica refletem diretamente nas tags XML 
 
 XML
 
-```
+```C#
 <PropertyGroup>
     <!-- Plataformas suportadas -->
     <TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
