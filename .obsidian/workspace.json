@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "seção 3 - Primeiros Passos/aulas/12 - Tela Inicial Parte I.md",
+                "file": "seção 3 - Primeiros Passos/aulas/16 - Tela Inicial Parte V.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12 - Tela Inicial Parte I"
+              "title": "16 - Tela Inicial Parte V"
             }
           }
         ],
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 304.5
   },
   "right": {
     "id": "373f83746a6440d2",
@@ -219,18 +219,18 @@
   },
   "active": "5e7ca506259a37d3",
   "lastOpenFiles": [
+    "seção 3 - Primeiros Passos/aulas/15 - Tela Inicial - Parte IV.md",
+    "seção 3 - Primeiros Passos/aulas/14 - Tela Inicial - Parte III.md",
     "seção 3 - Primeiros Passos/aulas/13 - Tela Inicial - Parte II.md",
     "seção 3 - Primeiros Passos/aulas/12 - Tela Inicial Parte I.md",
     "seção 3 - Primeiros Passos/aulas/11 -Primeiros passos no Maiu II.md",
     "seção 3 - Primeiros Passos/aulas/10 - Primeiros passos no Maui.md",
     "seção 3 - Primeiros Passos/aulas/09 - Splash Scream.md",
-    "seção 3 - Primeiros Passos/aulas/15 - Tela Inicial - Parte IV.md",
     "seção 3 - Primeiros Passos/aulas/02 - Criando o Projeto Maui.md",
     "seção 3 - Primeiros Passos/aulas/03 - Fluxo de Execução.md",
     "seção 3 - Primeiros Passos/aulas/02 - Fluxo de Execução do Maui.md",
-    "seção 3 - Primeiros Passos/aulas/16 - Rodando o projeto no Windows e Android.md",
-    "seção 3 - Primeiros Passos/aulas/17 - Tela Inicial Parte V.md",
-    "seção 3 - Primeiros Passos/aulas/14 - Tela Inicial - Parte III.md",
+    "seção 3 - Primeiros Passos/aulas/17 - Rodando o projeto no Windows e Android.md",
+    "seção 3 - Primeiros Passos/aulas/16 - Tela Inicial Parte V.md",
     "seção 3 - Primeiros Passos/aulas/06 - Ícone Windows.md",
     "seção 3 - Primeiros Passos/seção 03 - aulas.md",
     "maui.md",
