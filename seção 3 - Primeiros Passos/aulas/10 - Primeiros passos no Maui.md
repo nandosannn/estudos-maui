@@ -64,8 +64,6 @@ Esse é um dos conceitos mais importantes da aula.
 
 **Inicialmente temos:**
 
-
-
 ```Plaintext
 Tela
  ├── Logo
@@ -74,8 +72,6 @@ Tela
 ```
 
 **Após clicar:**
-
-
 
 ```
 Mesma tela
@@ -167,8 +163,6 @@ O projeto criado pelo .NET MAUI já possui uma estrutura inicial. A proposta da 
 
 **A ideia é partir de:**
 
-
-
 ```
 Projeto MAUI padrão
         │
@@ -179,8 +173,6 @@ Projeto MAUI padrão
 ```
 
 **Para:**
-
-
 
 ```
 Projeto MAUI

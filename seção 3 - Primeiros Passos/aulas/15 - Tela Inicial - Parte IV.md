@@ -13,8 +13,6 @@ A tela possui, basicamente, dois estados:
 
 **ESTADO INICIAL**
 
-Plaintext
-
 ```
 ┌─────────────────────┐
 │   Número da sorte   │
@@ -26,8 +24,6 @@ Plaintext
 **Depois do clique:**
 
 **ESTADO FINAL**
-
-Plaintext
 
 ```
 ┌─────────────────────┐
@@ -46,9 +42,9 @@ Um dos primeiros problemas é: **Como esconder vários elementos de uma vez?**
 
 Imagine que temos:
 
-XML
 
-```
+
+```XML
 <Label Text="01" />
 <Label Text="02" />
 <Label Text="03" />
@@ -59,9 +55,9 @@ XML
 
 Seria possível fazer:
 
-C#
 
-```
+
+```C#
 label01.IsVisible = false;
 label02.IsVisible = false;
 label03.IsVisible = false;
@@ -76,9 +72,9 @@ Mas isso é trabalhoso. A solução apresentada é colocar os elementos dentro d
 
 O .NET MAUI não possui necessariamente um componente chamado simplesmente "Group" para agrupar elementos visualmente. Então podemos usar um `VerticalStackLayout`:
 
-XML
 
-```
+
+```XML
 <VerticalStackLayout>
     ...
 </VerticalStackLayout>
@@ -86,9 +82,9 @@ XML
 
 Ele passa a funcionar como um container. Por exemplo:
 
-XML
 
-```
+
+```XML
 <VerticalStackLayout>
     <Label Text="01" />
     <Label Text="02" />
@@ -98,9 +94,9 @@ XML
 
 Agora, em vez de controlar três Labels individualmente, podemos controlar apenas o `VerticalStackLayout`:
 
-C#
 
-```
+
+```C#
 container.IsVisible = false;
 ```
 
@@ -122,7 +118,6 @@ Isso esconde todos os elementos que estão dentro dele.
 
 O professor chama atenção para uma questão importante. Criar um container significa adicionar mais um elemento à árvore visual:
 
-Plaintext
 
 ```
 ContentPage
@@ -170,9 +165,9 @@ A propriedade fundamental da aula é `IsVisible`. Ela determina se um elemento d
 
 **Exemplo:**
 
-XML
 
-```
+
+```XML
 <Label
     Text="Número da sorte"
     IsVisible="True" />
@@ -180,9 +175,9 @@ XML
 
 _A Label aparece._
 
-XML
 
-```
+
+```XML
 <VerticalStackLayout
     IsVisible="False">
     ...
@@ -202,9 +197,9 @@ A tela começa assim:
 
 **Em XAML:**
 
-XML
 
-```
+
+```XML
 <Label
     Text="Número da sorte"
     IsVisible="True" />
@@ -228,9 +223,9 @@ XML
 
 Para que o C# encontre os elementos do XAML, precisamos dar um nome a eles usando `x:Name`:
 
-XML
 
-```
+
+```XML
 <Label
     x:Name="lblLucky"
     Text="Número da sorte" />
@@ -242,17 +237,15 @@ Agora podemos acessar esse elemento diretamente no C#: `lblLucky`.
 
 `x:Name="lblLucky"` cria uma referência que permite ao Code Behind acessar aquele elemento.
 
-Plaintext
-
 ```
 XAML (x:Name="lblLucky") ───► Code Behind (lblLucky)
 ```
 
 Isso permite fazer:
 
-C#
 
-```
+
+```C#
 lblLucky.IsVisible = false;
 ```
 
@@ -260,9 +253,9 @@ lblLucky.IsVisible = false;
 
 Da mesma forma, o container recebe um nome:
 
-XML
 
-```
+
+```XML
 <VerticalStackLayout
     x:Name="containerLuckyNumbers"
     IsVisible="False">
@@ -270,9 +263,9 @@ XML
 
 Agora podemos controlar o container no C#:
 
-C#
 
-```
+
+```C#
 containerLuckyNumbers.IsVisible = true;
 ```
 
@@ -287,9 +280,9 @@ Temos então duas referências:
 
 O professor também precisa alterar os números posteriormente. Por isso, cada Label recebe um nome:
 
-XML
 
-```
+
+```XML
 <Label x:Name="lblNumber01" />
 <Label x:Name="lblNumber02" />
 <Label x:Name="lblNumber03" />
@@ -300,9 +293,9 @@ XML
 
 A ideia é posteriormente poder fazer:
 
-C#
 
-```
+
+```C#
 lblNumber01.Text = "15";
 lblNumber02.Text = "23";
 lblNumber03.Text = "07";
@@ -314,17 +307,17 @@ Como os números serão gerados pelo código, não precisamos deixar valores fix
 
 Podemos ter:
 
-XML
 
-```
+
+```XML
 <Label x:Name="lblNumber01" />
 ```
 
 em vez de:
 
-XML
 
-```
+
+```XML
 <Label
     x:Name="lblNumber01"
     Text="01" />
@@ -332,9 +325,9 @@ XML
 
 Posteriormente:
 
-C#
 
-```
+
+```C#
 lblNumber01.Text = "15";
 ```
 
@@ -362,9 +355,9 @@ MainPage.xaml (Interface)⟷MainPage.xaml.cs (Comportamento / Programac¸​
 
 O professor cria:
 
-C#
 
-```
+
+```C#
 private void OnGenerateLuckyNumbers()
 {
     
@@ -439,9 +432,9 @@ Quando escrevemos `<Label/>`, temos a instância de uma classe `Label`. Por isso
 
 O método precisa ser executado quando o usuário clicar no botão através do evento `Clicked`:
 
-XML
 
-```
+
+```XML
 <Button
     Text="Gerar"
     Clicked="OnGenerateLuckyNumbers" />
@@ -466,9 +459,9 @@ Usuaˊrio clica→Button (Clicked)→OnGenerateLuckyNumbers()
 
 O método disparado por eventos normalmente possui:
 
-C#
 
-```
+
+```C#
 private void Button_Clicked(object sender, EventArgs e)
 {
     
@@ -481,9 +474,9 @@ O parâmetro `object sender` representa **quem disparou o evento** (neste caso, 
 
 Como `sender` é declarado genericamente como `object`, fazemos um casting para tratá-lo como `Button` e acessar suas propriedades específicas:
 
-C#
 
-```
+
+```C#
 Button button = (Button)sender;
 button.Text = "Gerado!";
 ```
@@ -499,9 +492,9 @@ O segundo parâmetro, `EventArgs e`, representa os argumentos associados ao even
 
 ## 23. 🧠 O "ecossistema" dos eventos
 
-C#
 
-```
+```C#
+
 private void Button_Clicked(
     object sender,
     EventArgs e)
@@ -567,19 +560,19 @@ Ao clicar novamente, o código apenas reatribui os mesmos valores para o estado 
 
 ## 27. 📚 Resumo dos conceitos da aula
 
-|Conceito|O que significa|Exemplo|
-|---|---|---|
-|`VerticalStackLayout`|Container para agrupar elementos|`<VerticalStackLayout>`|
-|`IsVisible`|Controla visibilidade|`IsVisible="False"`|
-|`x:Name`|Dá um nome ao elemento|`x:Name="lblLucky"`|
-|Code Behind|C# associado à tela XAML|`MainPage.xaml.cs`|
-|Método|Bloco de código executável|`OnGenerateLuckyNumbers()`|
-|`Clicked`|Evento disparado pelo clique|`Clicked="..."`|
-|`sender`|Objeto que disparou o evento|`Button`|
-|`EventArgs`|Informações do evento|`EventArgs e`|
-|Casting|Conversão para um tipo específico|`(Button)sender`|
-|Propriedade|Característica do objeto|`IsVisible`, `Text`|
-|MVVM|Padrão para separar interface e lógica|`View` + `ViewModel`|
+| Conceito              | O que significa                        | Exemplo                    |
+| --------------------- | -------------------------------------- | -------------------------- |
+| `VerticalStackLayout` | Container para agrupar elementos       | `<VerticalStackLayout>`    |
+| `IsVisible`           | Controla visibilidade                  | `IsVisible="False"`        |
+| `x:Name`              | Dá um nome ao elemento                 | `x:Name="lblLucky"`        |
+| Code Behind           | C# associado à tela XAML               | `MainPage.xaml.cs`         |
+| Método                | Bloco de código executável             | `OnGenerateLuckyNumbers()` |
+| `Clicked`             | Evento disparado pelo clique           | `Clicked="..."`            |
+| `sender`              | Objeto que disparou o evento           | `Button`                   |
+| `EventArgs`           | Informações do evento                  | `EventArgs e`              |
+| Casting               | Conversão para um tipo específico      | `(Button)sender`           |
+| Propriedade           | Característica do objeto               | `IsVisible`, `Text`        |
+| MVVM                  | Padrão para separar interface e lógica | `View` + `ViewModel`       |
 
 ## 28. 🧠 O conhecimento mais importante para a prova/prática
 
@@ -609,9 +602,7 @@ Plaintext
 
 **XAML:**
 
-XML
-
-```
+```XML
 <Label
     x:Name="lblLucky"
     Text="Número da sorte"
@@ -634,9 +625,7 @@ XML
 
 **Code Behind:**
 
-C#
-
-```
+```C#
 private void OnGenerateLuckyNumbers(
     object sender,
     EventArgs e)

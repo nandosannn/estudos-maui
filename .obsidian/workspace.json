@@ -8,20 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c62971841d3882bc",
+            "id": "35f522592476d6b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "seção 3 - Primeiros Passos/aulas/09 - Splash Scream.md",
+                "file": "seção 3 - Primeiros Passos/notas/exemplo de código tela inicial II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09 - Splash Scream"
+              "title": "exemplo de código tela inicial II"
+            }
+          },
+          {
+            "id": "5ec950f6d68cecda",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "seção 3 - Primeiros Passos/aulas/15 - Tela Inicial - Parte IV.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15 - Tela Inicial - Parte IV"
+            }
+          },
+          {
+            "id": "56bac8fd26aa7d90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "seção 3 - Primeiros Passos/aulas/16 - Tela Inicial Parte V.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "16 - Tela Inicial Parte V"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 392.5
   },
   "right": {
     "id": "373f83746a6440d2",
@@ -188,24 +217,28 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "c62971841d3882bc",
+  "active": "5ec950f6d68cecda",
   "lastOpenFiles": [
+    "seção 3 - Primeiros Passos/aulas/16 - Tela Inicial Parte V.md",
+    "seção 3 - Primeiros Passos/aulas/15 - Tela Inicial - Parte IV.md",
+    "seção 3 - Primeiros Passos/notas/exemplo de código da tela inicial III.md",
+    "seção 3 - Primeiros Passos/aulas/14 - Tela Inicial - Parte III.md",
+    "seção 3 - Primeiros Passos/notas/exemplo de código tela inicial II.md",
+    "seção 3 - Primeiros Passos/notas/exemplo de código tela inicial.md",
+    "seção 3 - Primeiros Passos/aulas/13 - Tela Inicial - Parte II.md",
+    "seção 3 - Primeiros Passos/aulas/12 - Tela Inicial Parte I.md",
+    "seção 3 - Primeiros Passos/notas",
+    "seção 3 - Primeiros Passos/aulas/11 -Primeiros passos no Maiu II.md",
+    "seção 3 - Primeiros Passos/aulas/10 - Primeiros passos no Maui.md",
+    "seção 3 - Primeiros Passos/aulas/09 - Splash Scream.md",
     "seção 3 - Primeiros Passos/aulas/08 - ícone Android II.md",
     "seção 3 - Primeiros Passos/aulas/07 - Ícone Android.md",
     "seção 3 - Primeiros Passos/aulas/06 - Ícone Windows.md",
     "seção 3 - Primeiros Passos/aulas/05 - Pixels Teoria.md",
     "seção 3 - Primeiros Passos/aulas/04 - Nome, ID e versão do App.md",
-    "seção 3 - Primeiros Passos/aulas/09 - Splash Scream.md",
-    "seção 3 - Primeiros Passos/aulas/10 - Primeiros passos no Maui.md",
-    "seção 3 - Primeiros Passos/aulas/11 -Primeiros passos no Maiu II.md",
-    "seção 3 - Primeiros Passos/aulas/16 - Tela Inicial Parte V.md",
     "seção 3 - Primeiros Passos/aulas/03 - Fluxo de Execução.md",
     "seção 3 - Primeiros Passos/aulas/02 - Criando o Projeto Maui.md",
     "seção 3 - Primeiros Passos/seção 03 - aulas.md",
-    "seção 3 - Primeiros Passos/aulas/15 - Tela Inicial - Parte IV.md",
-    "seção 3 - Primeiros Passos/aulas/14 - Tela Inicial - Parte III.md",
-    "seção 3 - Primeiros Passos/aulas/13 - Tela Inicial - Parte II.md",
-    "seção 3 - Primeiros Passos/aulas/12 - Tela Inicial Parte I.md",
     "seção 3 - Primeiros Passos/aulas/02 - Fluxo de Execução do Maui.md",
     "seção 3 - Primeiros Passos/aulas/17 - Rodando o projeto no Windows e Android.md",
     "maui.md",

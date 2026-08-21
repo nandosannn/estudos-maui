@@ -66,9 +66,9 @@ A estratégia é:
 
 Isso significa que, em vez de fazer:
 
-Plaintext
 
-```
+
+```Plaintext
 Página 1
    ↓
 Página 2
@@ -1120,3 +1120,59 @@ Se você entender essa hierarquia, já terá captado o principal da aula:
 - `HorizontalStackLayout` organiza os números horizontalmente
     
 - `Labels` representam os textos e números.
+
+
+### 📱 Tabela — Conceitos e exemplos da aula
+
+| Conceito                    | Para que serve                                       | Exemplo                                               | Resultado                                        |
+| --------------------------- | ---------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------ |
+| **`Label`**                 | Exibir textos na tela                                | `<Label Text="Boa sorte!" />`                         | Exibe o texto **Boa sorte!**                     |
+| **`Text`**                  | Define o conteúdo textual de uma `Label`             | `Text="Número da Sorte:"`                             | Mostra **Número da Sorte:**                      |
+| **`IsVisible`**             | Controla se um elemento aparece ou fica oculto       | `IsVisible="False"`                                   | O elemento fica invisível                        |
+| **`HorizontalOptions`**     | Define o posicionamento horizontal                   | `HorizontalOptions="Center"`                          | Centraliza o elemento horizontalmente            |
+| **`Margin`**                | Define espaço **externo** ao elemento                | `Margin="0,0,0,50"`                                   | Cria 50 unidades de espaço abaixo                |
+| **`Spacing`**               | Define espaço entre os filhos de um Stack            | `Spacing="10"`                                        | Cria 10 unidades entre cada elemento             |
+| **`VerticalStackLayout`**   | Organiza elementos verticalmente                     | `<VerticalStackLayout>`                               | Elementos ficam um abaixo do outro               |
+| **`HorizontalStackLayout`** | Organiza elementos horizontalmente                   | `<HorizontalStackLayout>`                             | Elementos ficam lado a lado                      |
+| **`ScrollView`**            | Permite rolar o conteúdo quando ele não cabe na tela | `<ScrollView>...</ScrollView>`                        | Usuário pode deslizar para visualizar o restante |
+| **`FontSize`**              | Define o tamanho da fonte                            | `FontSize="24"`                                       | Texto fica maior                                 |
+| **`FontFamily`**            | Define a família/tipo da fonte                       | `FontFamily="OpenSansMedium"`                         | Utiliza a fonte especificada                     |
+| **`TextColor`**             | Define a cor do texto                                | `TextColor="Green"`                                   | Texto fica verde                                 |
+| **`Style`**                 | Permite definir propriedades padrão para elementos   | `<Style TargetType="Label">`                          | Aplica configurações às `Label`s                 |
+| **`Setter`**                | Define uma propriedade dentro de um `Style`          | `<Setter Property="FontSize" Value="12" />`           | Define `FontSize=12` como padrão                 |
+| **Hierarquia XAML**         | Organiza elementos dentro de outros elementos        | `VerticalStackLayout → HorizontalStackLayout → Label` | Define a estrutura da interface                  |
+| **Indentação**              | Facilita a visualização da hierarquia                | Elementos filhos ficam recuados                       | Código fica mais legível                         |
+
+Os conceitos de `Label`, `IsVisible`, `HorizontalOptions`, `Margin`, `FontSize`, `FontFamily`, `TextColor`, `VerticalStackLayout`, `HorizontalStackLayout`, `Spacing` e `ScrollView` são explicitamente destacados como fundamentais na aula.
+
+### 🔹 Exemplos principais da aula
+
+|Situação|Código|O que acontece|
+|---|---|---|
+|Esconder uma `Label`|`<Label Text="Número da Sorte" IsVisible="False" />`|A `Label` não é exibida|
+|Centralizar texto|`<Label Text="Número da Sorte:" HorizontalOptions="Center" />`|Texto fica centralizado|
+|Criar números lado a lado|`<HorizontalStackLayout Spacing="10">`|Os números ficam horizontalmente organizados|
+|Criar espaçamento inferior|`Margin="0,0,0,50"`|Cria espaço abaixo do elemento|
+|Aumentar fonte|`FontSize="24"`|Texto fica maior|
+|Alterar fonte|`FontFamily="OpenSansMedium"`|Utiliza a família de fonte indicada|
+|Alterar cor|`TextColor="Green"`|Texto fica verde|
+|Permitir rolagem|`<ScrollView><VerticalStackLayout>...</VerticalStackLayout></ScrollView>`|Conteúdo pode ser rolado|
+|Aplicar estilo às Labels|`<Style TargetType="Label">`|Define propriedades padrão para as Labels|
+|Sobrescrever estilo|`<Label Text="01" FontSize="24" />`|Essa Label usa 24 em vez do tamanho padrão|
+
+### 🧠 Pontos para memorizar
+
+|Se você encontrar...|Lembre-se de...|
+|---|---|
+|`IsVisible`|**Visibilidade**|
+|`HorizontalOptions`|**Posicionamento horizontal**|
+|`Margin`|**Espaço externo**|
+|`Spacing`|**Espaço entre filhos**|
+|`VerticalStackLayout`|**Vertical**|
+|`HorizontalStackLayout`|**Horizontal**|
+|`FontSize`|**Tamanho da fonte**|
+|`FontFamily`|**Família da fonte**|
+|`TextColor`|**Cor do texto**|
+|`ScrollView`|**Rolagem**|
+|`Style`|**Configuração padrão**|
+|`Setter`|**Define uma propriedade do estilo**|

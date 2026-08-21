@@ -1068,22 +1068,25 @@ Plaintext
 
 ### Conceitos mais importantes
 
-|**Para lembrar**|**Conceito**|
-|---|---|
-|🖼️ Imagem|`Source`|
-|📏 Tamanho|`WidthRequest` / `HeightRequest`|
-|🟢 Cor do texto|`TextColor`|
-|🟩 Cor de fundo|`BackgroundColor`|
-|🔘 Cantos arredondados|`CornerRadius`|
-|↔️ Alinhamento horizontal|`HorizontalOptions`|
-|↕️ Alinhamento vertical|`VerticalOptions`|
-|📐 Espaçamento|`Margin`|
-|🎨 Configuração reutilizável|Estilo|
-|🎯 Um único componente|Propriedade local|
-|🎯 Vários componentes|Estilo global|
+| **Para lembrar**             | **Conceito**                     |
+| ---------------------------- | -------------------------------- |
+| 🖼️ Imagem                   | `Source`                         |
+| 📏 Tamanho                   | `WidthRequest` / `HeightRequest` |
+| 🟢 Cor do texto              | `TextColor`                      |
+| 🟩 Cor de fundo              | `BackgroundColor`                |
+| 🔘 Cantos arredondados       | `CornerRadius`                   |
+| ↔️ Alinhamento horizontal    | `HorizontalOptions`              |
+| ↕️ Alinhamento vertical      | `VerticalOptions`                |
+| 📐 Espaçamento               | `Margin`                         |
+| 🎨 Configuração reutilizável | Estilo                           |
+| 🎯 Um único componente       | Propriedade local                |
+| 🎯 Vários componentes        | Estilo global                    |
 
 ### A ideia central
 
 Primeiro criamos a estrutura da tela; depois configuramos aparência; depois ajustamos espaçamentos e, finalmente, usamos as opções de alinhamento para tornar a interface adaptável ao espaço disponível.
 
 Isso encerra a construção da primeira tela do aplicativo, deixando a base pronta para a continuação do desenvolvimento na próxima aula.
+
+## Notas
+- #### [[exemplo de código tela inicial]]

@@ -33,9 +33,9 @@ No _Code Behind_ da página, cria-se o método responsável pela geração: `Gen
 
 Inicialmente sem parâmetros, o método precisa retornar os números gerados (portanto, deixa de ser `void`).
 
-C#
 
-```
+
+```C#
 SortedSet<int> GenerateLuckyNumbers()
 {
     // geração dos números
@@ -55,9 +55,9 @@ SortedSet<int> GenerateLuckyNumbers()
 
 Para gerar números aleatórios em C#, utilizamos a classe `Random`:
 
-C#
 
-```
+
+```C#
 Random random = new Random();
 int luckyNumber = random.Next(1, 61); // Gera um número entre 1 e 60
 ```
@@ -80,9 +80,9 @@ int luckyNumber = random.Next(1, 61); // Gera um número entre 1 e 60
 
 Se utilizarmos apenas um laço simples:
 
-C#
 
-```
+
+```C#
 for (int i = 0; i < 6; i++)
 {
     int luckyNumber = random.Next(1, 61);
@@ -108,9 +108,9 @@ Portanto, precisamos de uma estrutura que:
 
 Um `Set` é uma estrutura de dados voltada para armazenar elementos sem repetição.
 
-C#
 
-```
+
+```C#
 HashSet<int> numeros = new HashSet<int>();
 ```
 
@@ -125,9 +125,9 @@ A solução ideal combina duas propriedades:
 2. **Mantém os elementos ordenados automaticamente**
     
 
-C#
 
-```
+
+```C#
 SortedSet<int> numeros = new SortedSet<int>();
 
 numeros.Add(40);
@@ -149,9 +149,9 @@ numeros.Add(5);
 
 ## 9. Por que o `for` não é suficiente?
 
-C#
 
-```
+
+```C#
 for (int i = 0; i < 6; i++)
 {
     int luckyNumber = random.Next(1, 61);
@@ -169,9 +169,9 @@ Se houver duplicatas durante as 6 iterações (ex.: números sorteados `10, 20, 
 
 Utiliza-se a condição baseada no tamanho da coleção:
 
-C#
 
-```
+
+```C#
 while (numeros.Count < 6)
 ```
 
@@ -179,9 +179,9 @@ while (numeros.Count < 6)
 
 ## 11. Algoritmo completo de geração
 
-C#
 
-```
+
+```C#
 Random random = new Random();
 SortedSet<int> luckyNumbers = new SortedSet<int>();
 
@@ -211,7 +211,6 @@ return luckyNumbers;
 
 ## 13. Papel de cada recurso
 
-Plaintext
 
 ```
 Random ────► Gera número aleatório
@@ -231,9 +230,9 @@ while ─────► Garante exatamente 6 números
 
 ## 14. Retornando os números
 
-C#
 
-```
+
+```C#
 private SortedSet<int> GenerateLuckyNumbers()
 {
     Random random = new Random();
@@ -253,9 +252,9 @@ private SortedSet<int> GenerateLuckyNumbers()
 
 Ao clicar no botão:
 
-C#
 
-```
+
+```C#
 SortedSet<int> numbers = GenerateLuckyNumbers();
 // Contém: 03, 17, 24, 35, 48, 59
 ```
@@ -273,9 +272,9 @@ SortedSet<int> numbers = GenerateLuckyNumbers();
 
 ## 17. Exibindo nas Labels
 
-C#
 
-```
+
+```C#
 label1.Text = numbers.ElementAt(0).ToString();
 label2.Text = numbers.ElementAt(1).ToString();
 label3.Text = numbers.ElementAt(2).ToString();
@@ -297,9 +296,9 @@ label6.Text = numbers.ElementAt(5).ToString();
 
 Para exibir `01, 02...` em vez de `1, 2...`, utiliza-se o especificador de formato `"D2"`:
 
-C#
 
-```
+
+```C#
 int numero = 5;
 string texto = numero.ToString("D2"); // "05"
 ```
@@ -325,7 +324,6 @@ Exemplo de uso: `numbers.ElementAt(0).ToString("D2")` $\rightarrow$ `"07"`.
 
 ## 21. Fluxo completo do aplicativo
 
-Plaintext
 
 ```
 Usuário clica em "Gerar Número da Sorte"
@@ -395,9 +393,9 @@ A probabilidade de repetição existe ao sortear 6 números dentro de 60. A comb
 
 ## 28. Código final consolidado
 
-C#
 
-```
+
+```C#
 private SortedSet<int> GenerateLuckyNumbers()
 {
     Random random = new Random();

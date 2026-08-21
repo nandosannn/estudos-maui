@@ -536,7 +536,7 @@ Uma reconstrução da estrutura mostrada na aula:
 
 XML
 
-```
+```XML
 <HorizontalStackLayout
     HorizontalOptions="Center"
     Spacing="5">
