@@ -158,14 +158,12 @@ Por enquanto, a solução mais simples é suficiente.
 
 A propriedade fundamental da aula é `IsVisible`. Ela determina se um elemento deve ser visualizado:
 
-|Valor|Resultado|
-|---|---|
-|`true`|👁️ Elemento visível|
-|`false`|🚫 Elemento invisível|
+| Valor   | Resultado             |
+| ------- | --------------------- |
+| `true`  | 👁️ Elemento visível  |
+| `false` | 🚫 Elemento invisível |
 
 **Exemplo:**
-
-
 
 ```XML
 <Label
@@ -202,7 +200,7 @@ A tela começa assim:
 ```XML
 <Label
     Text="Número da sorte"
-    IsVisible="True" />
+    IsVisible="True"/>
 
 <VerticalStackLayout
     IsVisible="False">
@@ -242,8 +240,6 @@ XAML (x:Name="lblLucky") ───► Code Behind (lblLucky)
 ```
 
 Isso permite fazer:
-
-
 
 ```C#
 lblLucky.IsVisible = false;
