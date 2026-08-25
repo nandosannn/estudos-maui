@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "seção 4 - Tipos de Páginas/11 - TabbedPage - Parte III.md",
+                "file": "seção 5 - AppGallery/02 - Estruturando o projeto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 - TabbedPage - Parte III"
+              "title": "02 - Estruturando o projeto"
             }
           }
         ],
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 290.5
   },
   "right": {
     "id": "373f83746a6440d2",
@@ -219,35 +219,37 @@
   },
   "active": "9cf0865821a5d33b",
   "lastOpenFiles": [
+    "seção 5 - AppGallery/05 - Programando o Menu Lateral - Parte 2 - Layout.md",
+    "seção 5 - AppGallery/04 - Programando o Menu Lateral - Parte 1.md",
+    "seção 5 - AppGallery/03 - Criando os Modelos para Nosso Menu.md",
+    "seção 5 - AppGallery/02 - Estruturando o projeto.md",
+    "seção 5 - AppGallery/01 - Criando o projeto e Configurando Icone e Splash.md",
+    "seção 5 - AppGallery/20 - FlexLayout - Wrap e AlignContent.md",
+    "seção 5 - AppGallery/19 - FlexLayout - Grow, Order, Basis, Shrink - Parte 4.md",
+    "seção 5 - AppGallery/18 - FlexLayout - JustifyContent - Parte 3.md",
+    "seção 5 - AppGallery/17 - FlexLayout - AlignItems e AlignSelft - Parte 2.md",
+    "seção 5 - AppGallery/16 - FlexLayout - Direction - Parte 1.md",
+    "seção 5 - AppGallery/15 - AbsoluteLayout.md",
+    "seção 5 - AppGallery/14 - GridLayout - Parte 3 - Spacing e Simplificação da estrutura.md",
+    "seção 5 - AppGallery/13 - GridLayout - Parte 2.md",
+    "seção 5 - AppGallery/12 - GridLayout - Parte 1.md",
+    "seção 5 - AppGallery/11 - VerticalStackLayout, HorizontalStackLayout e Spacing.md",
+    "seção 5 - AppGallery/10 - StackLayout.md",
+    "seção 5 - AppGallery/09 - TEORIA - Tipos de Layout.md",
+    "seção 5 - AppGallery/08 - ScrollView no Menu.md",
+    "seção 5 - AppGallery/07 - Dica de Performance e Menu Inicio.md",
+    "seção 5 - AppGallery/06 - Abrindo Página do Component.md",
+    "seção 4 - Tipos de Páginas/11 - TabbedPage - Parte III.md",
+    "seção 5 - AppGallery/Sem título",
+    "seção 5 - AppGallery",
     "seção 4 - Tipos de Páginas/10 - TabbedPage - Parte II.md",
     "seção 4 - Tipos de Páginas/09 - TabbedPage - Parte I.md",
     "seção 4 - Tipos de Páginas/08 - FlyoutPage - Parte III.md",
     "seção 4 - Tipos de Páginas/07 - FlyoutPage - Parte II.md",
     "seção 4 - Tipos de Páginas/06 - FlyoutPage - Parte I.md",
-    "seção 4 - Tipos de Páginas/notas/Exemplo de FlyoutPage.md",
-    "seção 4 - Tipos de Páginas/05 - NavigationPage Parte II.md",
-    "seção 4 - Tipos de Páginas/04 - NavigationPage - Parte I.md",
-    "seção 4 - Tipos de Páginas/notas/Exemplo de NavigationPage parte I.md",
     "seção 4 - Tipos de Páginas/notas",
-    "seção 4 - Tipos de Páginas/03 - ContentPage.md",
-    "seção 4 - Tipos de Páginas/02 - TEORIA - Tipos de Páginas.md",
-    "seção 4 - Tipos de Páginas/01 - O que é XAML.md",
-    "seção 3 - Primeiros Passos/aulas/15 - Tela Inicial - Parte IV.md",
-    "seção 3 - Primeiros Passos/aulas/16 - Tela Inicial Parte V.md",
-    "seção 4 - Tipos de Páginas/11 - TabbedPage - Parte III.md",
-    "seção 4 - Tipos de Páginas/Sem título.md",
-    "seção 3 - Primeiros Passos/aulas/17 - Rodando o projeto no Windows e Android.md",
     "seção 4 - Tipos de Páginas",
-    "seção 3 - Primeiros Passos/notas/exemplo de código da tela inicial III.md",
-    "seção 3 - Primeiros Passos/aulas/14 - Tela Inicial - Parte III.md",
-    "seção 3 - Primeiros Passos/notas/exemplo de código tela inicial II.md",
-    "seção 3 - Primeiros Passos/notas/exemplo de código tela inicial.md",
-    "seção 3 - Primeiros Passos/aulas/13 - Tela Inicial - Parte II.md",
-    "seção 3 - Primeiros Passos/aulas/12 - Tela Inicial Parte I.md",
     "seção 3 - Primeiros Passos/notas",
-    "seção 3 - Primeiros Passos/aulas/11 -Primeiros passos no Maiu II.md",
-    "seção 3 - Primeiros Passos/aulas/10 - Primeiros passos no Maui.md",
-    "seção 3 - Primeiros Passos/aulas/09 - Splash Scream.md",
     "seção 3 - Primeiros Passos/aulas",
     "seção 3 - Primeiros Passos"
   ]
