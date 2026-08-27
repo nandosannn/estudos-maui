@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "seção 5 - AppGallery/02 - Estruturando o projeto.md",
+                "file": "02 - XAML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Estruturando o projeto"
+              "title": "02 - XAML"
             }
           }
         ],
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 290.5
+    "width": 200
   },
   "right": {
     "id": "373f83746a6440d2",
@@ -219,10 +219,15 @@
   },
   "active": "9cf0865821a5d33b",
   "lastOpenFiles": [
+    "roadmap MAUI.md",
+    "02 - XAML.md",
+    "01 - Introdução.md",
+    "README.md",
+    "maui.md",
+    "seção 5 - AppGallery/02 - Estruturando o projeto.md",
     "seção 5 - AppGallery/05 - Programando o Menu Lateral - Parte 2 - Layout.md",
     "seção 5 - AppGallery/04 - Programando o Menu Lateral - Parte 1.md",
     "seção 5 - AppGallery/03 - Criando os Modelos para Nosso Menu.md",
-    "seção 5 - AppGallery/02 - Estruturando o projeto.md",
     "seção 5 - AppGallery/01 - Criando o projeto e Configurando Icone e Splash.md",
     "seção 5 - AppGallery/20 - FlexLayout - Wrap e AlignContent.md",
     "seção 5 - AppGallery/19 - FlexLayout - Grow, Order, Basis, Shrink - Parte 4.md",
@@ -242,11 +247,6 @@
     "seção 4 - Tipos de Páginas/11 - TabbedPage - Parte III.md",
     "seção 5 - AppGallery/Sem título",
     "seção 5 - AppGallery",
-    "seção 4 - Tipos de Páginas/10 - TabbedPage - Parte II.md",
-    "seção 4 - Tipos de Páginas/09 - TabbedPage - Parte I.md",
-    "seção 4 - Tipos de Páginas/08 - FlyoutPage - Parte III.md",
-    "seção 4 - Tipos de Páginas/07 - FlyoutPage - Parte II.md",
-    "seção 4 - Tipos de Páginas/06 - FlyoutPage - Parte I.md",
     "seção 4 - Tipos de Páginas/notas",
     "seção 4 - Tipos de Páginas",
     "seção 3 - Primeiros Passos/notas",
