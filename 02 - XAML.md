@@ -19,15 +19,16 @@ O `.xaml` define a **interface**, enquanto o `.xaml.cs` contém o **Code-Behind*
 2. [[#2. Sintaxe do XAML]]
 3. [[#3. Elementos e atributos]]
 4. [[#4. `x Name`]]
-5. Namespaces
-6. Eventos
-7. Propriedades
-8. `StaticResource`
-9. `DynamicResource`
-10. Styles
-11. Resources
-12. Diferenças importantes
-13. Quadro de revisão
+5. [[#5. Namespaces]]
+6. [[#6. Eventos]]
+7. [[#7. Propriedades]]
+8. [[#8. `StaticResource`]]
+9. [[#9. `DynamicResource`]]
+10. [[#10. Styles]]
+11. [[#11. Resources]]
+12. [[#12. Diferenças importantes]]
+13. [[#13. Quadro de revisão]]
+14. [[#🎯 Exemplo para memorizar tudo]]
 
 ---
 
@@ -559,14 +560,14 @@ O objeto `e` contém informações sobre o evento.
 
 ## 6.3 Eventos comuns
 
-|Controle|Evento|Quando ocorre|
-|---|---|---|
-|`Button`|`Clicked`|Botão clicado|
-|`Entry`|`TextChanged`|Texto alterado|
-|`CheckBox`|`CheckedChanged`|Estado alterado|
-|`Switch`|`Toggled`|Switch alterado|
-|`Picker`|`SelectedIndexChanged`|Seleção alterada|
-|`ContentPage`|`Appearing`|Página aparece|
+| Controle      | Evento                 | Quando ocorre    |
+| ------------- | ---------------------- | ---------------- |
+| `Button`      | `Clicked`              | Botão clicado    |
+| `Entry`       | `TextChanged`          | Texto alterado   |
+| `CheckBox`    | `CheckedChanged`       | Estado alterado  |
+| `Switch`      | `Toggled`              | Switch alterado  |
+| `Picker`      | `SelectedIndexChanged` | Seleção alterada |
+| `ContentPage` | `Appearing`            | Página aparece   |
 
 ---
 
@@ -636,7 +637,7 @@ HorizontalOptions
 
 ---
 
-# 7.2 Propriedades aninhadas
+## 7.2 Propriedades aninhadas
 
 Quando uma propriedade é complexa:
 
@@ -660,7 +661,7 @@ Ou:
 
 ---
 
-# 7.3 Propriedades anexadas
+## 7.3 Propriedades anexadas
 
 O MAUI também possui **Attached Properties**, utilizadas para fornecer informações a partir de um objeto para outro.
 
@@ -888,7 +889,7 @@ Agora:
 
 ---
 
-# 10.1 `Setter`
+## 10.1 `Setter`
 
 O `Setter` define uma propriedade que será aplicada pelo estilo.
 
@@ -912,7 +913,7 @@ Style
 
 ---
 
-# 10.2 `TargetType`
+## 10.2 `TargetType`
 
 Indica para qual tipo de controle o estilo foi criado.
 
@@ -932,7 +933,7 @@ O estilo foi criado para `Button`.
 
 ---
 
-# 10.3 Style implícito
+## 10.3 Style implícito
 
 Nem todo estilo precisa possuir `x:Key`.
 
@@ -1047,7 +1048,7 @@ Depois:
 
 ---
 
-# 11.2 Application Resources
+## 11.2 Application Resources
 
 Também podemos definir recursos globalmente no aplicativo.
 
@@ -1093,7 +1094,7 @@ Agora diferentes páginas podem utilizar:
 
 ---
 
-# 11.3 Escopo dos Resources
+## 11.3 Escopo dos Resources
 
 Os recursos possuem **escopo**.
 
@@ -1117,7 +1118,7 @@ Um recurso definido dentro de uma página possui escopo mais restrito.
 
 ---
 
-# 11.4 Exemplo completo
+## 11.4 Exemplo completo
 
 ### App.xaml
 
@@ -1290,7 +1291,7 @@ Pode ser recuperado:
 {StaticResource PrimaryColor}
 ```
 
-||`x:Name`|`x:Key`|
+| |`x:Name`|`x:Key`|
 |---|---|---|
 |Identifica|Elemento|Recurso|
 |Uso principal|Code-Behind|Resource Dictionary|
@@ -1302,22 +1303,22 @@ Pode ser recuperado:
 
 ## 🧠 Resumo geral
 
-|Conceito|O que faz|Exemplo|
-|---|---|---|
-|XAML|Declara a interface|`<Label Text="Olá" />`|
-|Elemento|Representa um objeto|`<Button />`|
-|Atributo|Configura uma propriedade|`Text="OK"`|
-|`x:Name`|Nomeia elemento|`x:Name="btnSalvar"`|
-|Namespace|Identifica tipos/recursos|`xmlns:x="..."`|
-|Evento|Reage a ações|`Clicked="..."`|
-|Propriedade|Configura estado|`Text="Olá"`|
-|`StaticResource`|Obtém recurso|`{StaticResource Cor}`|
-|`DynamicResource`|Obtém recurso atualizável|`{DynamicResource Cor}`|
-|`Style`|Agrupa configurações|`<Style ...>`|
-|`Setter`|Define propriedade no Style|`<Setter ...>`|
-|`TargetType`|Define alvo do Style|`TargetType="Button"`|
-|`Resources`|Armazena recursos reutilizáveis|`<Page.Resources>`|
-|`x:Key`|Identifica recurso|`x:Key="PrimaryColor"`|
+| Conceito          | O que faz                       | Exemplo                 |
+| ----------------- | ------------------------------- | ----------------------- |
+| XAML              | Declara a interface             | `<Label Text="Olá" />`  |
+| Elemento          | Representa um objeto            | `<Button />`            |
+| Atributo          | Configura uma propriedade       | `Text="OK"`             |
+| `x:Name`          | Nomeia elemento                 | `x:Name="btnSalvar"`    |
+| Namespace         | Identifica tipos/recursos       | `xmlns:x="..."`         |
+| Evento            | Reage a ações                   | `Clicked="..."`         |
+| Propriedade       | Configura estado                | `Text="Olá"`            |
+| `StaticResource`  | Obtém recurso                   | `{StaticResource Cor}`  |
+| `DynamicResource` | Obtém recurso atualizável       | `{DynamicResource Cor}` |
+| `Style`           | Agrupa configurações            | `<Style ...>`           |
+| `Setter`          | Define propriedade no Style     | `<Setter ...>`          |
+| `TargetType`      | Define alvo do Style            | `TargetType="Button"`   |
+| `Resources`       | Armazena recursos reutilizáveis | `<Page.Resources>`      |
+| `x:Key`           | Identifica recurso              | `x:Key="PrimaryColor"`  |
 
 ---
 
@@ -1444,39 +1445,3 @@ ContentPage
            ├── Style
            └── Event
 ```
-
----
-
-## 📝 O que mais cai em questões
-
-Se o objetivo é **estudar .NET MAUI para prova/concurso**, memorize principalmente estas relações:
-
-> **XAML → declaração da interface**
-
-> **Elemento → objeto/controle**
-
-> **Atributo → configuração de propriedade**
-
-> **Propriedade → estado/configuração do objeto**
-
-> **Evento → reação a uma ação**
-
-> **`x:Name` → identifica elemento para referência**
-
-> **`x:Key` → identifica recurso**
-
-> **`Resources` → armazenamento de recursos reutilizáveis**
-
-> **`Style` → conjunto reutilizável de propriedades**
-
-> **`Setter` → define propriedades de um Style**
-
-> **`StaticResource` → referencia recurso**
-
-> **`DynamicResource` → referencia recurso que pode ser atualizado dinamicamente**
-
-> **`xmlns` → namespace**
-
-> **`xmlns:x` → namespace das diretivas `x:` do XAML**
-
-Essa distinção entre **propriedade, evento, recurso, `x:Name`, `x:Key`, `StaticResource` e `DynamicResource`** é especialmente importante para não confundir os conceitos em exercícios práticos e questões teóricas.
