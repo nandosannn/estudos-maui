@@ -2,32 +2,32 @@
 
 ### 1. Fundamentos do .NET MAUI
 
-- [ ]  O que é .NET MAUI
-- [ ]  Diferença entre .NET MAUI, Xamarin.Forms e desenvolvimento nativo
-- [ ]  Multiplataforma: Android, iOS, Windows e MacCatalyst
-- [ ]  Estrutura de um projeto MAUI
-- [ ]  `MauiProgram.cs`
-- [ ]  `App.xaml` e `App.xaml.cs`
-- [ ]  `AppShell.xaml`
-- [ ]  `MainPage.xaml`
-- [ ]  Code-behind (`.xaml.cs`)
-- [ ]  Ciclo de vida básico da aplicação
+- [x]  O que é .NET MAUI
+- [x]  Diferença entre .NET MAUI, Xamarin.Forms e desenvolvimento nativo
+- [x]  Multiplataforma: Android, iOS, Windows e MacCatalyst
+- [x]  Estrutura de um projeto MAUI
+- [x]  `MauiProgram.cs`
+- [x]  `App.xaml` e `App.xaml.cs`
+- [x]  `AppShell.xaml`
+- [x]  `MainPage.xaml`
+- [x]  Code-behind (`.xaml.cs`)
+- [x]  Ciclo de vida básico da aplicação
 
 ---
 
 ### 2. XAML
 
-- [ ]  O que é XAML
-- [ ]  Sintaxe do XAML
-- [ ]  Elementos e atributos
-- [ ]  `x:Name`
-- [ ]  Namespaces
-- [ ]  Eventos
-- [ ]  Propriedades
-- [ ]  `StaticResource`
-- [ ]  `DynamicResource`
-- [ ]  Styles
-- [ ]  Resources
+- [x]  O que é XAML
+- [x]  Sintaxe do XAML
+- [x]  Elementos e atributos
+- [x]  `x:Name`
+- [x]  Namespaces
+- [x]  Eventos
+- [x]  Propriedades
+- [x]  `StaticResource`
+- [x]  `DynamicResource`
+- [x]  Styles
+- [x]  Resources
 
 **Componentes básicos:**
 
