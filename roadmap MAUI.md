@@ -31,18 +31,18 @@
 
 **Componentes básicos:**
 
-- [ ]  `Label`
-- [ ]  `Button`
-- [ ]  `Image`
-- [ ]  `Entry`
-- [ ]  `Editor`
-- [ ]  `CheckBox`
-- [ ]  `RadioButton`
-- [ ]  `Switch`
-- [ ]  `Slider`
-- [ ]  `Picker`
-- [ ]  `DatePicker`
-- [ ]  `TimePicker`
+- [x]  `Label`
+- [x]  `Button`
+- [x]  `Image`
+- [x]  `Entry`
+- [x]  `Editor`
+- [x]  `CheckBox`
+- [x]  `RadioButton`
+- [x]  `Switch`
+- [x]  `Slider`
+- [x]  `Picker`
+- [x]  `DatePicker`
+- [x]  `TimePicker`
 
 ---
 
@@ -50,24 +50,24 @@
 
 Entender como organizar os elementos na tela:
 
-- [ ]  `VerticalStackLayout`
-- [ ]  `HorizontalStackLayout`
-- [ ]  `Grid`
-- [ ]  `FlexLayout`
-- [ ]  `ScrollView`
-- [ ]  `AbsoluteLayout`
+- [x]  `VerticalStackLayout`
+- [x]  `HorizontalStackLayout`
+- [x]  `Grid`
+- [x]  `FlexLayout`
+- [x]  `ScrollView`
+- [x]  `AbsoluteLayout`
 
 E principalmente:
 
-- [ ]  `Padding`
-- [ ]  `Margin`
-- [ ]  `Spacing`
-- [ ]  `WidthRequest`
-- [ ]  `HeightRequest`
-- [ ]  `HorizontalOptions`
-- [ ]  `VerticalOptions`
-- [ ]  `RowDefinitions`
-- [ ]  `ColumnDefinitions`
+- [x]  `Padding`
+- [x]  `Margin`
+- [x]  `Spacing`
+- [x]  `WidthRequest`
+- [x]  `HeightRequest`
+- [x]  `HorizontalOptions`
+- [x]  `VerticalOptions`
+- [x]  `RowDefinitions`
+- [x]  `ColumnDefinitions`
 
 ---
 
@@ -411,25 +411,25 @@ Depois de dominar os anteriores:
 
 Como você **já está fazendo um curso de MAUI e já passou por páginas, layouts, Flyout/Tabbed e começou a seção 5**, eu seguiria esta sequência:
 
-|Ordem|Assunto|Prioridade|
-|---|---|---|
-|1|Fundamentos do MAUI|⭐⭐⭐|
-|2|XAML|⭐⭐⭐|
-|3|Layouts|⭐⭐⭐|
-|4|Controles|⭐⭐⭐|
-|5|Navegação/Shell|⭐⭐⭐|
-|6|Eventos|⭐⭐|
-|7|**Data Binding**|⭐⭐⭐⭐⭐|
-|8|**MVVM**|⭐⭐⭐⭐⭐|
-|9|**Dependency Injection**|⭐⭐⭐⭐⭐|
-|10|**Consumo de APIs**|⭐⭐⭐⭐⭐|
-|11|JSON/DTO|⭐⭐⭐⭐|
-|12|Autenticação/JWT|⭐⭐⭐⭐⭐|
-|13|SecureStorage/Preferences|⭐⭐⭐⭐|
-|14|SQLite|⭐⭐⭐⭐|
-|15|CommunityToolkit|⭐⭐⭐|
-|16|Recursos do dispositivo|⭐⭐⭐|
-|17|Handlers|⭐⭐⭐|
-|18|Testes/Debug|⭐⭐⭐|
-|19|Build/Publicação|⭐⭐⭐|
-|20|Clean Architecture|⭐⭐⭐⭐|
+| Ordem | Assunto                   | Prioridade |
+| ----- | ------------------------- | ---------- |
+| 1     | Fundamentos do MAUI       | ⭐⭐⭐        |
+| 2     | XAML                      | ⭐⭐⭐        |
+| 3     | Layouts                   | ⭐⭐⭐        |
+| 4     | Controles                 | ⭐⭐⭐        |
+| 5     | Navegação/Shell           | ⭐⭐⭐        |
+| 6     | Eventos                   | ⭐⭐         |
+| 7     | **Data Binding**          | ⭐⭐⭐⭐⭐      |
+| 8     | **MVVM**                  | ⭐⭐⭐⭐⭐      |
+| 9     | **Dependency Injection**  | ⭐⭐⭐⭐⭐      |
+| 10    | **Consumo de APIs**       | ⭐⭐⭐⭐⭐      |
+| 11    | JSON/DTO                  | ⭐⭐⭐⭐       |
+| 12    | Autenticação/JWT          | ⭐⭐⭐⭐⭐      |
+| 13    | SecureStorage/Preferences | ⭐⭐⭐⭐       |
+| 14    | SQLite                    | ⭐⭐⭐⭐       |
+| 15    | CommunityToolkit          | ⭐⭐⭐        |
+| 16    | Recursos do dispositivo   | ⭐⭐⭐        |
+| 17    | Handlers                  | ⭐⭐⭐        |
+| 18    | Testes/Debug              | ⭐⭐⭐        |
+| 19    | Build/Publicação          | ⭐⭐⭐        |
+| 20    | Clean Architecture        | ⭐⭐⭐⭐       |

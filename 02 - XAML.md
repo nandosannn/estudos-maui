@@ -1326,7 +1326,7 @@ Pode ser recuperado:
 
 Este exemplo reúne praticamente todo o conteúdo:
 
-```
+```xml
 <ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -1384,7 +1384,7 @@ Este exemplo reúne praticamente todo o conteúdo:
 
 E o Code-Behind:
 
-```
+```C#
 namespace MeuApp;
 
 public partial class MainPage : ContentPage

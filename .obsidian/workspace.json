@@ -8,17 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "35f522592476d6b6",
+            "id": "6badc3df9151b655",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "04 - Layouts.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "04 - Layouts"
             }
           },
           {
-            "id": "8505d1e0a679b70b",
+            "id": "554f980d42485188",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "05 - Navegação.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "05 - Navegação"
+            }
+          },
+          {
+            "id": "3697715b473e882b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,20 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "roadmap MAUI"
-            }
-          },
-          {
-            "id": "6620cb03a7e6e342",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - XAML.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "02 - XAML"
             }
           }
         ],
@@ -108,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 257.5
   },
   "right": {
     "id": "373f83746a6440d2",
@@ -213,10 +217,15 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "8505d1e0a679b70b",
+  "active": "554f980d42485188",
   "lastOpenFiles": [
-    "02 - XAML.md",
+    "04 - Layouts.md",
+    "05 - Navegação.md",
     "roadmap MAUI.md",
+    "prática/Prática aula 03.md",
+    "03 - Componentes Básicos.md",
+    "02 - XAML.md",
+    "prática",
     "01 - Introdução.md",
     "README.md",
     "maui.md",
@@ -237,10 +246,6 @@
     "seção 5 - AppGallery/11 - VerticalStackLayout, HorizontalStackLayout e Spacing.md",
     "seção 5 - AppGallery/10 - StackLayout.md",
     "seção 5 - AppGallery/09 - TEORIA - Tipos de Layout.md",
-    "seção 5 - AppGallery/08 - ScrollView no Menu.md",
-    "seção 5 - AppGallery/07 - Dica de Performance e Menu Inicio.md",
-    "seção 5 - AppGallery/06 - Abrindo Página do Component.md",
-    "seção 4 - Tipos de Páginas/11 - TabbedPage - Parte III.md",
     "seção 5 - AppGallery/Sem título",
     "seção 5 - AppGallery",
     "seção 4 - Tipos de Páginas/notas",
