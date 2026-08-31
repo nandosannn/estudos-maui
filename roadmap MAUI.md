@@ -73,16 +73,16 @@ E principalmente:
 
 ### 4. Navegação
 
-- [ ]  `Shell`
-- [ ]  Rotas
-- [ ]  Navegação entre páginas
-- [ ]  `GoToAsync()`
-- [ ]  Passagem de parâmetros
-- [ ]  Navegação para trás
-- [ ]  `NavigationPage`
-- [ ]  `FlyoutPage`
-- [ ]  `TabbedPage`
-- [ ]  Deep links
+- [x]  `Shell`
+- [x]  Rotas
+- [x]  Navegação entre páginas
+- [x]  `GoToAsync()`
+- [x]  Passagem de parâmetros
+- [x]  Navegação para trás
+- [x]  `NavigationPage`
+- [x]  `FlyoutPage`
+- [x]  `TabbedPage`
+- [x]  Deep links
 
 ---
 

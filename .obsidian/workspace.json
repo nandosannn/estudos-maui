@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,10 +217,10 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "554f980d42485188",
+  "active": "3697715b473e882b",
   "lastOpenFiles": [
-    "04 - Layouts.md",
     "05 - Navegação.md",
+    "04 - Layouts.md",
     "roadmap MAUI.md",
     "prática/Prática aula 03.md",
     "03 - Componentes Básicos.md",
