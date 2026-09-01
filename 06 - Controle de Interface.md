@@ -23,15 +23,15 @@ Depois dos componentes básicos (`Label`, `Button`, `Image`, `Entry`) e dos layo
 
 Os componentes desta etapa podem ser agrupados assim:
 
-|Categoria|Componentes|
-|---|---|
-|📋 Listas e coleções|`CollectionView`, `ListView`|
-|🎠 Navegação visual|`CarouselView`|
-|🧱 Containers visuais|`Border`, `Frame`|
-|👆 Interação por gesto|`SwipeView`|
-|🔄 Atualização|`RefreshView`|
-|⏳ Progresso/carregamento|`ActivityIndicator`, `ProgressBar`|
-|🌐 Conteúdo web|`WebView`|
+| Categoria                | Componentes                        |
+| ------------------------ | ---------------------------------- |
+| 📋 Listas e coleções     | `CollectionView`, `ListView`       |
+| 🎠 Navegação visual      | `CarouselView`                     |
+| 🧱 Containers visuais    | `Border`, `Frame`                  |
+| 👆 Interação por gesto   | `SwipeView`                        |
+| 🔄 Atualização           | `RefreshView`                      |
+| ⏳ Progresso/carregamento | `ActivityIndicator`, `ProgressBar` |
+| 🌐 Conteúdo web          | `WebView`                          |
 
 ---
 

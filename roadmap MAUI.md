@@ -105,15 +105,15 @@ Depois dos componentes básicos:
 
 ### 6. Eventos e interação
 
-- [ ]  Eventos no XAML
-- [ ]  Event handlers
-- [ ]  `Clicked`
-- [ ]  `TextChanged`
-- [ ]  `CheckedChanged`
-- [ ]  `SelectionChanged`
-- [ ]  Gestos
-- [ ]  `TapGestureRecognizer`
-- [ ]  `SwipeGestureRecognizer`
+- [x]  Eventos no XAML
+- [x]  Event handlers
+- [x]  `Clicked`
+- [x]  `TextChanged`
+- [x]  `CheckedChanged`
+- [x]  `SelectionChanged`
+- [x]  Gestos
+- [x]  `TapGestureRecognizer`
+- [x]  `SwipeGestureRecognizer`
 
 ---
 
