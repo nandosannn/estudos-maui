@@ -90,16 +90,16 @@ E principalmente:
 
 Depois dos componentes básicos:
 
-- [ ]  `CollectionView`
-- [ ]  `ListView`
-- [ ]  `CarouselView`
-- [ ]  `Border`
-- [ ]  `Frame`
-- [ ]  `SwipeView`
-- [ ]  `RefreshView`
-- [ ]  `ActivityIndicator`
-- [ ]  `ProgressBar`
-- [ ]  `WebView`
+- [x]  `CollectionView`
+- [x]  `ListView`
+- [x]  `CarouselView`
+- [x]  `Border`
+- [x]  `Frame`
+- [x]  `SwipeView`
+- [x]  `RefreshView`
+- [x]  `ActivityIndicator`
+- [x]  `ProgressBar`
+- [x]  `WebView`
 
 ---
 

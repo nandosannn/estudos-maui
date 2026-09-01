@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "roadmap MAUI.md",
+                "file": "07 - Eventos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "roadmap MAUI"
+              "title": "07 - Eventos"
             }
           }
         ],
@@ -219,15 +219,18 @@
   },
   "active": "3697715b473e882b",
   "lastOpenFiles": [
-    "05 - Navegação.md",
-    "04 - Layouts.md",
     "roadmap MAUI.md",
+    "07 - Eventos.md",
+    "06 - Controle de Interface.md",
+    "05 - Navegação.md",
+    "README.md",
+    "prática/Prática Navegação.md",
+    "04 - Layouts.md",
     "prática/Prática aula 03.md",
     "03 - Componentes Básicos.md",
     "02 - XAML.md",
     "prática",
     "01 - Introdução.md",
-    "README.md",
     "maui.md",
     "seção 5 - AppGallery/02 - Estruturando o projeto.md",
     "seção 5 - AppGallery/05 - Programando o Menu Lateral - Parte 2 - Layout.md",
@@ -243,9 +246,6 @@
     "seção 5 - AppGallery/14 - GridLayout - Parte 3 - Spacing e Simplificação da estrutura.md",
     "seção 5 - AppGallery/13 - GridLayout - Parte 2.md",
     "seção 5 - AppGallery/12 - GridLayout - Parte 1.md",
-    "seção 5 - AppGallery/11 - VerticalStackLayout, HorizontalStackLayout e Spacing.md",
-    "seção 5 - AppGallery/10 - StackLayout.md",
-    "seção 5 - AppGallery/09 - TEORIA - Tipos de Layout.md",
     "seção 5 - AppGallery/Sem título",
     "seção 5 - AppGallery",
     "seção 4 - Tipos de Páginas/notas",
