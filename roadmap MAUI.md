@@ -121,20 +121,20 @@ Depois dos componentes básicos:
 
 Esse é um dos assuntos que você deve dominar.
 
-- [ ]  O que é Data Binding
-- [ ]  Binding de propriedades
-- [ ]  `BindingContext`
-- [ ]  `OneWay`
-- [ ]  `TwoWay`
-- [ ]  `OneTime`
-- [ ]  `OneWayToSource`
-- [ ]  Binding entre controles
-- [ ]  Binding de objetos
-- [ ]  Binding de listas
-- [ ]  `INotifyPropertyChanged`
-- [ ]  `ObservableCollection`
-- [ ]  `Command`
-- [ ]  `ICommand`
+- [x]  O que é Data Binding
+- [x]  Binding de propriedades
+- [x]  `BindingContext`
+- [x]  `OneWay`
+- [x]  `TwoWay`
+- [x]  `OneTime`
+- [x]  `OneWayToSource`
+- [x]  Binding entre controles
+- [x]  Binding de objetos
+- [x]  Binding de listas
+- [x]  `INotifyPropertyChanged`
+- [x]  `ObservableCollection`
+- [x]  `Command`
+- [x]  `ICommand`
 
 Exemplo:
 
