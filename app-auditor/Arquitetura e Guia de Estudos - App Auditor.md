@@ -76,23 +76,23 @@ graph TD
 
 ## 🗂️ 3. Módulos Funcionais do Aplicativo
 
-| # | Módulo | Descrição Funcional | Principais Arquivos |
-|---|---|---|---|
-| **1** | **Acesso, Autenticação e Sessão** | Login (CPF/senha), SSO, Biometria/FaceID, registro de dispositivo, renovação de token e controle de sessão. | `LoginPage`, `LoginViewModel`, `AuthenticationService`, `IAuthApiClient` |
-| **2** | **Home, Navegação e Perfil** | `AppShell`, tela inicial com atalhos dinâmicos, favoritos, menu funcional e vínculo de empresa. | `HomePage`, `HomeViewModel`, `AppMenuPage`, `VincularEmpresaPage` |
-| **3** | **Consulta de Contribuinte** | Busca cadastral de pessoa física e jurídica por CPF/CNPJ/IE, validação e exibição detalhada. | `ConsultaContribuintePage`, `ResultadosConsultaPage`, `ConsultaContribuinteService` |
-| **4** | **Documentos Fiscais Eletrônicos (DF-e)** | Consulta de NF-e e NFC-e, leitura de QR Code, scanner de código de barras e visualização de DANFE. | `ConsultaDocumentosPage`, `QRCodePage`, `DocumentScannerPage`, `DanfePage` |
-| **5** | **MDF-e (Manifesto Eletrônico)** | Consulta de MDF-e por chave/filtros, listagem por status (Autorizado, Cancelado, Encerrado) e detalhes. | `ConsultaMdfePage`, `ListaMdfePage`, `InformacoesMdfePage` |
-| **6** | **Consulta por Placa de Veículo** | Fiscalização de veículos em trânsito com carregamento de NF-es, MDF-es vinculados e termos fiscais. | `ConsultaPlacasPage`, `ConsultaPlacasViewModel`, `NFePlacaService` |
-| **7** | **Fiscalização - TRM (Termo de Apreensão)** | Consulta e listagem de TRMs, detalhamento de mercadorias apreendidas e visualizador de PDF. | `ListaTamPage`, `DetalheListaTamPage`, `VisualizadorPdfPage` |
-| **8** | **Procedimentos TRM** | Gestão operacional de apreensões: registro de ciência, recusa, fiel depositário e cancelamento. | `DetalhesProcedimentoTamPage`, `NomearFielDepositarioPage`, `RegistroCienciaPage` |
-| **9** | **Lavratura de TAM (Wizard)** | Fluxo em etapas guiadas (Identificação, Momento, Ocorrências, Débitos, Rascunhos) para autuação. | `LavraturaTAMWizardPage`, `TermoApreensaoMercadoriaPage`, `GerarDebitoTAMPage` |
-| **10**| **Arrecadação Vinculada** | Emissão de GRI (Guia de Recolhimento) e boletos atrelados a termos de apreensão. | `EmitirGriTamPage`, `EmitirGriTamDetDebitosPopup` |
-| **11**| **Liberação de Mercadorias (Fronteira)** | Consulta de mercadoria retida por chave NFe, conferência em posto fiscal e inclusão de justificativa. | `LiberacaoMercadoriaPage`, `DetalheLiberacaoMercadoriaPage`, `JustificativaPopupPage` |
-| **12**| **Parte de Serviço (PS)** | Registro e acompanhamento de Ordens/Partes de Serviço dos auditores fiscais com download de anexos. | `ParteServicoPage`, `ParteServicoViewModel` |
-| **13**| **SMART e Lotes** | Inclusão de lotes de notas fiscais e análise automatizada em lote. | `IncluirLotePage`, `AnalisarLotePage` |
-| **14**| **Argos Chatbot** | Assistente virtual integrado para suporte e dúvidas operacionais do auditor fiscal. | `ArgosChatPage`, `ArgosChatViewModel`, `ArgosChatbotService` |
-| **15**| **Infraestrutura Transversal** | Tratamento global de erros, loading padronizado, notificações locais/push e feedback háptico. | `GlobalExceptionHandler`, `ApiLoadingService`, `HapticFeedbackService` |
+| #      | Módulo                                      | Descrição Funcional                                                                                         | Principais Arquivos                                                                   |
+| ------ | ------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| **1**  | **Acesso, Autenticação e Sessão**           | Login (CPF/senha), SSO, Biometria/FaceID, registro de dispositivo, renovação de token e controle de sessão. | `LoginPage`, `LoginViewModel`, `AuthenticationService`, `IAuthApiClient`              |
+| **2**  | **Home, Navegação e Perfil**                | `AppShell`, tela inicial com atalhos dinâmicos, favoritos, menu funcional e vínculo de empresa.             | `HomePage`, `HomeViewModel`, `AppMenuPage`, `VincularEmpresaPage`                     |
+| **3**  | **Consulta de Contribuinte**                | Busca cadastral de pessoa física e jurídica por CPF/CNPJ/IE, validação e exibição detalhada.                | `ConsultaContribuintePage`, `ResultadosConsultaPage`, `ConsultaContribuinteService`   |
+| **4**  | **Documentos Fiscais Eletrônicos (DF-e)**   | Consulta de NF-e e NFC-e, leitura de QR Code, scanner de código de barras e visualização de DANFE.          | `ConsultaDocumentosPage`, `QRCodePage`, `DocumentScannerPage`, `DanfePage`            |
+| **5**  | **MDF-e (Manifesto Eletrônico)**            | Consulta de MDF-e por chave/filtros, listagem por status (Autorizado, Cancelado, Encerrado) e detalhes.     | `ConsultaMdfePage`, `ListaMdfePage`, `InformacoesMdfePage`                            |
+| **6**  | **Consulta por Placa de Veículo**           | Fiscalização de veículos em trânsito com carregamento de NF-es, MDF-es vinculados e termos fiscais.         | `ConsultaPlacasPage`, `ConsultaPlacasViewModel`, `NFePlacaService`                    |
+| **7**  | **Fiscalização - TRM (Termo de Apreensão)** | Consulta e listagem de TRMs, detalhamento de mercadorias apreendidas e visualizador de PDF.                 | `ListaTamPage`, `DetalheListaTamPage`, `VisualizadorPdfPage`                          |
+| **8**  | **Procedimentos TRM**                       | Gestão operacional de apreensões: registro de ciência, recusa, fiel depositário e cancelamento.             | `DetalhesProcedimentoTamPage`, `NomearFielDepositarioPage`, `RegistroCienciaPage`     |
+| **9**  | **Lavratura de TAM (Wizard)**               | Fluxo em etapas guiadas (Identificação, Momento, Ocorrências, Débitos, Rascunhos) para autuação.            | `LavraturaTAMWizardPage`, `TermoApreensaoMercadoriaPage`, `GerarDebitoTAMPage`        |
+| **10** | **Arrecadação Vinculada**                   | Emissão de GRI (Guia de Recolhimento) e boletos atrelados a termos de apreensão.                            | `EmitirGriTamPage`, `EmitirGriTamDetDebitosPopup`                                     |
+| **11** | **Liberação de Mercadorias (Fronteira)**    | Consulta de mercadoria retida por chave NFe, conferência em posto fiscal e inclusão de justificativa.       | `LiberacaoMercadoriaPage`, `DetalheLiberacaoMercadoriaPage`, `JustificativaPopupPage` |
+| **12** | **Parte de Serviço (PS)**                   | Registro e acompanhamento de Ordens/Partes de Serviço dos auditores fiscais com download de anexos.         | `ParteServicoPage`, `ParteServicoViewModel`                                           |
+| **13** | **SMART e Lotes**                           | Inclusão de lotes de notas fiscais e análise automatizada em lote.                                          | `IncluirLotePage`, `AnalisarLotePage`                                                 |
+| **14** | **Argos Chatbot**                           | Assistente virtual integrado para suporte e dúvidas operacionais do auditor fiscal.                         | `ArgosChatPage`, `ArgosChatViewModel`, `ArgosChatbotService`                          |
+| **15** | **Infraestrutura Transversal**              | Tratamento global de erros, loading padronizado, notificações locais/push e feedback háptico.               | `GlobalExceptionHandler`, `ApiLoadingService`, `HapticFeedbackService`                |
 
 ---
 
