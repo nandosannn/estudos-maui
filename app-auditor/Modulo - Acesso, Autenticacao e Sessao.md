@@ -60,11 +60,11 @@ graph TD
 
 ### Divisão de Responsabilidades
 
-| Camada | Papel no Módulo | Principais Componentes |
-|---|---|---|
-| **Core** | Contratos de interface, modelos de request/response e abstrações de plataforma sem acoplamento externo. | `IAuthenticationService`, `IUserSessionStorage`, `ISessaoUsuarioService`, `IDeviceInfoService`, `IDeviceRegistrationService`, `IBiometricAuthService`. |
+| Camada             | Papel no Módulo                                                                                                                                 | Principais Componentes                                                                                                                                     |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Core**           | Contratos de interface, modelos de request/response e abstrações de plataforma sem acoplamento externo.                                         | `IAuthenticationService`, `IUserSessionStorage`, `ISessaoUsuarioService`, `IDeviceInfoService`, `IDeviceRegistrationService`, `IBiometricAuthService`.     |
 | **Infrastructure** | Implementação concreta de chamadas HTTP (Refit), ciclo de interceptores de rede, biometria nativa, armazenamento local e recuperação de sessão. | `AutBasicService`, `UserSessionStorage`, `RefitAuthorizationHandler`, `RefitSessionRetryHandler`, `ExpiredSessionRecoveryService`, `BiometricAuthService`. |
-| **Presentation** | Telas em C# Markup, ViewModels baseados em `CommunityToolkit.Mvvm`, gerenciador de navegação e autenticação SSO com navegador do sistema. | `LoginPage`, `LoginViewModel`, `SsoAuthenticationService`, `RegistrarDispositivoPage`, `AppShell`. |
+| **Presentation**   | Telas em C# Markup, ViewModels baseados em `CommunityToolkit.Mvvm`, gerenciador de navegação e autenticação SSO com navegador do sistema.       | `LoginPage`, `LoginViewModel`, `SsoAuthenticationService`, `RegistrarDispositivoPage`, `AppShell`.                                                         |
 
 ---
 
